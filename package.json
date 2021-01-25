@@ -1,0 +1,17 @@
+{
+  "name": "wolai-electron",
+  "version": "1.0.0",
+  "description": "使用electron包装的wolai客户端",
+  "main": "index.js",
+  "scripts": {
+    "build:mac": "cross-env PLATFORM=mac node index.js",
+    "build:linux": "cross-env PLATFORM=linux node index.js",
+    "build:windows": "cross-env PLATFORM=windows node index.js"
+  },
+  "author": "coolcao",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "nativefier": "^42.2.0"
+  }
+}
